@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 
 # Expose the port Nginx listens on
-EXPOSE 80
+EXPOSE 81
 
 # Command to run when the container starts
 CMD ["nginx", "-g", "daemon off;"]
